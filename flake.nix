@@ -14,6 +14,7 @@
           hardeningDisable = ["all"];
           packages = with pkgs; [
             erlang_27
+            erlfmt
           ];
         };
       };
