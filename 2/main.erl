@@ -60,7 +60,6 @@ possibles(List) ->
     SubLists = lists:map(fun(I) -> withoutnth(I, List) end, Range),
     [List | SubLists].
 
-
 part2(InputPath) ->
     lists:foldl(
         fun(Report, Sum) ->
